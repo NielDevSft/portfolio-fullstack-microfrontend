@@ -10,6 +10,11 @@ System.import('single-spa').then(({ registerApplication, start }) => {
     app: () => System.import('shop'),
     activeWhen: location => location.pathname.startsWith('/shop'),
   });
+  registerApplication({
+    name: 'account',
+    app: () => System.import('account'),
+    activeWhen: location => location.pathname.startsWith('/account'),
+  });
 
   registerApplication({
     name: 'chat',

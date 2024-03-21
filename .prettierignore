@@ -8,7 +8,7 @@ node_modules
 *.template
 yarn.lock
 yarn-error.log
-LICENSE
+
 browserslist
 *.ico
 dist

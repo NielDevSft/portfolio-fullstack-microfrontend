@@ -13,6 +13,10 @@ export class PrimaryNavComponent {
       url: '/shop',
     },
     {
+      label: 'Account',
+      url: '/account',
+    },
+    {
       label: 'Chat',
       url: '/chat',
     },
